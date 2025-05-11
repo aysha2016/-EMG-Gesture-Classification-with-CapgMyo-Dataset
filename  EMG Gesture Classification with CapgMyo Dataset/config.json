@@ -1,0 +1,37 @@
+{
+    "data": {
+        "data_dir": "/path/to/capgmyo/dataset",
+        "window_size": 1000,
+        "overlap": 0.5,
+        "sampling_rate": 1000,
+        "num_channels": 8,
+        "num_gestures": 8,
+        "test_size": 0.2,
+        "val_size": 0.2,
+        "random_state": 42
+    },
+    "model": {
+        "model_type": "cnn",
+        "input_shape": [1000, 8],
+        "num_classes": 8,
+        "learning_rate": 0.001,
+        "dropout_rate": 0.3,
+        "cnn_filters": [64, 128, 256],
+        "lstm_units": [64, 32],
+        "dense_units": [128, 64]
+    },
+    "training": {
+        "batch_size": 32,
+        "epochs": 50,
+        "early_stopping_patience": 10,
+        "lr_reduction_patience": 5,
+        "lr_reduction_factor": 0.5,
+        "min_lr": 1e-6
+    },
+    "export": {
+        "export_dir": "exported_models",
+        "save_format": "all",
+        "quantization": false,
+        "target_platform": null
+    }
+} 
