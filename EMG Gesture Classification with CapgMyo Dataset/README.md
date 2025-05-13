@@ -92,7 +92,7 @@ Enjoy exploring muscle signals with deep learning! 💪✨
 ### Setup
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/emg_gesture_classification.git
+git clone https://github.com/aysha2016/emg_gesture_classification.git
 cd emg_gesture_classification
 ```
 
@@ -189,12 +189,7 @@ python scripts/export_model.py --model_path models/saved/best_model.h5
 python scripts/visualize_results.py --results_dir results
 ```
 
-## Model Performance
-| Model Type | Accuracy | F1-Score | Inference Time |
-|------------|----------|----------|----------------|
-| CNN        | 95.2%    | 0.951    | 2.3 ms        |
-| LSTM       | 93.8%    | 0.937    | 3.1 ms        |
-| Hybrid     | 96.1%    | 0.960    | 4.5 ms        |
+ 
 
 ## Real-time Processing
 The system is designed for real-time EMG signal processing:
@@ -203,41 +198,5 @@ The system is designed for real-time EMG signal processing:
 - TFLite export for edge devices
 - Low latency inference
 
-## Contributing
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## Citation
-If you use this code in your research, please cite:
-```bibtex
-@article{emg_gesture_classification,
-  title={EMG Gesture Classification with CapgMyo Dataset},
-  author={Your Name},
-  journal={Your Journal},
-  year={2024},
-  doi={10.xxxx/xxxxx}
-}
-```
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-- CapgMyo dataset creators
-- TensorFlow team
-- PyTorch team
-- Open source community
-
-## Contact
-- Your Name - your.email@example.com
-- Project Link: [https://github.com/yourusername/emg_gesture_classification](https://github.com/yourusername/emg_gesture_classification)
-
-## Future Work
-- [ ] Add support for more EMG datasets
-- [ ] Implement real-time visualization
-- [ ] Add support for multi-modal fusion
-- [ ] Optimize for mobile deployment
-- [ ] Add support for transfer learning
+ 
+  
